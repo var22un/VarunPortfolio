@@ -595,21 +595,21 @@ cursor: pointer;
    position: relative;
     
 }
-@keyframes boxfadee11{
-    0%, 10%{left:0%;
+@keyframes boxfadee{
+    0%, 10%{
         box-shadow: 0px 0px 25px black;
     }
     
-    20%, 30%{left: -50%;
+    20%, 30%{
         box-shadow: 0px 0px 25px greenyellow;
         
     }
     
-    40%, 70%{left: -280%;
+    40%, 70%{
         box-shadow: 0px 0px 25px greenyellow;
     }
     70%,100%{
-        left: 0%;
+        
         box-shadow: 0px 0px 25px black;
     }
 }
