@@ -588,7 +588,7 @@ cursor: pointer;
    position: relative;
     
 }
-@keyframes boxfadee{
+@keyframes boxfadee11{
     0%, 10%{left:0%;
         box-shadow: 0px 0px 25px black;
     }
