@@ -5,6 +5,8 @@ body{
     font-family: sans-serif;
     color: whitesmoke;
     box-sizing: border-box;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
    }
    #nav_h:hover{
 border: 3px solid rebeccapurple  ;
@@ -543,6 +545,11 @@ backdrop-filter: blur(10px);
 /*max width 450px*/
 
 @media (max-width:450px){
+    body{
+     box-sizing: border-box;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+    }
     #price_box{
         max-height: 540px;
         border-bottom-left-radius: 30%;
