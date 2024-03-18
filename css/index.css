@@ -8,6 +8,9 @@ body{
    overflow-x: hidden;
    scroll-behavior: smooth;
    }
+html{
+    scroll-behavior:smooth;
+}
    #nav_h:hover{
 border: 3px solid rebeccapurple  ;
 transition: 0.2s;
